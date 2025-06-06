@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prime Number Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Prime Number Generator</h2>
+    <table>
+      <tr>
+        <td>Start</td>
+        <td><input type="number" id="start"></td>
+      </tr>
+      <tr>
+        <td>End</td>
+        <td><input type="number" id="end"></td>
+      </tr>
+      <tr>
+        <td>Prime Number</td>
+        <td><textarea id="result" rows="5" readonly></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button onclick="generatePrimes()">Generate</button></td>
+      </tr>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
